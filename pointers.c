@@ -10,10 +10,12 @@ int main()
     double *pGpa = &gpa;
     char grade = 'A';
     char *pGrade = &grade;
+    *pAge = 15;
 
     
 
     printf("age's memory address: %p\n", pAge);
+    printf("Age is now: %d\n", age);
 
     return 0;
 }
